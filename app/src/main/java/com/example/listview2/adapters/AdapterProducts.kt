@@ -1,16 +1,12 @@
 package com.example.listview2.adapters
 
 import android.content.Context
-import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.BaseAdapter
 import android.widget.Toast
-import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.example.listview2.R
-import com.example.listview2.activities.ProductDetails
 import com.example.listview2.activities.Products
 import kotlinx.android.synthetic.main.row_list_adapter.view.*
 
