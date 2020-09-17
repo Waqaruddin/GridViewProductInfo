@@ -70,7 +70,8 @@ class AdapterProducts(var mContext: Context, var mList:ArrayList<Products>): Rec
         parent: ViewGroup,
         viewType: Int
     ): AdapterProducts.MyViewHolder {
-        var view = LayoutInflater.from(mContext).inflate(R.layout.row_list_adapter, parent, false)
+        var view = LayoutInflater.from(mContext).inflate(
+            R.layout.row_list_adapter, parent, false)
         return MyViewHolder(view)
     }
 
